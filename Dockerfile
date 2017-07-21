@@ -147,7 +147,7 @@ RUN mkdir -p "$GEM_HOME" "$BUNDLE_BIN" \
 # Digdag installation
 # http://docs.digdag.io/getting_started.html
 #
-ENV DIGDAG_VERSION 0.9.7
+ENV DIGDAG_VERSION 0.9.13
 
 RUN apk add --no-cache --update curl git
 RUN curl -o /usr/local/bin/digdag --create-dirs -L "https://dl.digdag.io/digdag-$DIGDAG_VERSION"
